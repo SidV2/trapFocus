@@ -5,4 +5,4 @@ Step 1
 Clone the repository 
 
 Step 2
-Run the code(modal.html) file using a broswer. Implementation has been done using vanilla JS.
+Run the code(sampleModal.html) file using a broswer. Implementation has been done using vanilla JS.
