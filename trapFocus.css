@@ -1,0 +1,45 @@
+* {
+    font-size: 16px;
+}
+
+.modal_wrapper{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+}
+
+.modal_custom {
+    width: 50%;
+    margin: 0 auto;
+    padding: 3rem;
+    background-color: #cccccc;
+    display: none;
+}
+
+.modal_custom_header {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+
+.modal_custom_button_holder div {
+    padding: 1rem;
+    width: 100%;
+}
+
+.modal_custom_buttons {
+    width: 100%;
+    font-size: 2rem;
+}
+
+.showModal {
+    text-align: left;
+    width: 40%;
+    margin: 0 auto;
+    display: block !important;
+}
+
+.showModalHolder {
+    width: 100%;
+    padding: 3rem;
+}

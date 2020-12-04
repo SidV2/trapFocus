@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="trapFocus.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div>
+            <div class="modal_wrapper">
+                <div id="customModal" class="modal_custom">
+                    <div class="modal_custom_header" id="customModalHeader" tabindex="0">Sample header text</div>
+                    <div class="modal_custom_body">
+                        <div class="modal_custom_button_holder">
+                            <div class="modal_custom_buttons">
+                                <button tabindex="0" style="width: 100%;" class="btn btn-success" onclick="closeModal()" type="submit">Close Modal..</button>
+                            </div>
+                            <div class="modal_custom_buttons">
+                                <button tabindex="0" style="width: 100%;" class="btn btn-success" onclick="closeModal()" type="submit">Close Modal..</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="showModalHolder"> 
+                <button type="button" onclick="showModal()" class="btn btn-info showModal" id="showModal">Click here to show modal</button>
+            </div>
+        </div>
+        <script src="trapFocus.js"></script>
+    </body>
+</html>
